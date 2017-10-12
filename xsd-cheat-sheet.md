@@ -197,19 +197,18 @@ l-28 -93 -143 0 c-166 0 -149 -12 -187 130 -14 52 -51 187 -82 300 -102 371
 
 ~~~~
 <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:integer">
-                      <xs:attribute name="unit">
-                        <xs:simpleType>
-                          <xs:restriction base="xs:string">
-                            <xs:length value="3" />
-                          </xs:restriction>
-                        </xs:simpleType>
-                      </xs:attribute>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
+  <xs:simpleContent>
+    <xs:extension base="xs:integer">
+      <xs:attribute name="unit">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:length value="3" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
 ~~~~
 <br />
 
