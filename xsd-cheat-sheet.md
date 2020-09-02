@@ -246,22 +246,24 @@ l-28 -93 -143 0 c-166 0 -149 -12 -187 130 -14 52 -51 187 -82 300 -102 371
 
 ### Numeric
 
-- xs:byte
-- xs:decimal
-- xs:int
-- xs:integer
-- xs:long
-- xs:negativeInteger
-- xs:nonNegativeInteger
-- xs:nonPositiveInteger
-- xs:positiveInteger
-- xs:short
-- xs:unsignedLong
-- xs:unsignedInt
-- xs:unsignedShort
-- xs:unsignedByte
-- xs:float
-- xs:double
+| Name | Min | Max |
+| ---- | ---:| ---:|
+| xs:byte | -128 | 127 |
+| xs:decimal |||
+| xs:int | -2 147 483 648 | 2 147 483 647 |
+| xs:integer |||
+| xs:long | -9 223 372 036 854 775 808 | 9 223 372 036 854 775 807 |
+| xs:negativeInteger || -1 |
+| xs:nonNegativeInteger | 0 ||
+| xs:nonPositiveInteger || 0 |
+| xs:positiveInteger | 1 ||
+| xs:short | -32 768 | 32 767 |
+| xs:unsignedLong | 0 | 18 446 744 073 709 551 615 |
+| xs:unsignedInt | 0 | 4 294 967 295 |
+| xs:unsignedShort | 0 | 65 535 |
+| xs:unsignedByte | 0 | 255 |
+| xs:float |||
+| xs:double |||
 
 ### Boolean
 
